@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wordpress' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'admin' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -37,6 +37,8 @@ define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define('FS_METHOD', 'direct');
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -46,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'tlBGZov[$G(pHy>[tElI+h@Y~MB&sIl,0kKth5LYT11om`@njTr(5+uAFp<*ZTF0' );
+define( 'SECURE_AUTH_KEY',  '`>a78otPrU_Ov`NT<-dIn~]`32 ~]L3uye?U_0>D;Uj#3f*TM:51<co-QQ>hGM`S' );
+define( 'LOGGED_IN_KEY',    '5EHBo?sM_+^~z%m8P!S1$PH@;)!kmJtdS8FNudY4v5Lr trzGM!+!ZaWbIsXe-w=' );
+define( 'NONCE_KEY',        'pj,s~o~^ieWZol~6e:DAljye=s:NU =.pT#m?H?D;_{,D>9p2pRl6uT;,yb]1D P' );
+define( 'AUTH_SALT',        '_zZ)K7-B8Vj,s4.dNm4 cTx&*UQmmJq.mVm?1u+-=kFAK3+U]3;F4${FL@PN*v%#' );
+define( 'SECURE_AUTH_SALT', 'jqT@7m$1g%w=4@X$g^)5o.+@d[N*`7DbF7m3|p*RuPur^-6d}LQHq7>.*WGj|AF|' );
+define( 'LOGGED_IN_SALT',   'L8,k)-G~oP5/8 $p?mjP0`+1CuglCKkp/l /IS+.E+Vr!-p(@idZ/d:l|KJE]GZI' );
+define( 'NONCE_SALT',       '`;J}++|crKe`p|pa|k~&yf8:t$vKb[)+y%/Op`Z4=6K!nh6qC0|}S5J53;/7jLJz' );
 
 /**#@-*/
 
