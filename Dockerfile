@@ -33,8 +33,6 @@ RUN	ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/
 RUN	service nginx start
 RUN	service php7.3-fpm start
 
-ADD	./srcs/info.php /var/www/html/
-
 ENV	MYSQL_USER 'admin'
 ENV	MYSQL_PASS 'admin'
 RUN	service mysql start \
