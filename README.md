@@ -1,5 +1,11 @@
 # ft_server
-[super user]
+
+Sujet d'administration système : mise en place d'un serveur web via Docker :
+- serveur web contenant les services Wordpress, phpMyAdmin et MySQL
+- un seul conteneur Docker, construit sur l'image Debian Buster puis implémenté via Dockerfile
+- Utilisation du protocole SSL
+
+Commandes :
 
 docker build -t image_name .
 
